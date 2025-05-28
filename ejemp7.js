@@ -12,3 +12,6 @@ let pesoK=parseFloat(prompt(' Escribe tu peso en kilos '));
 let pesoL = pesoK * 2.20462 ;
 
 console.log (' tu peso en libras es: '+ pesoL);
+
+
+// concluido
