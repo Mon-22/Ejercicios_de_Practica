@@ -19,10 +19,12 @@ if ( ladoA===ladoB && ladoB=== ladoC) {
     console.log('Felicidades, tienes un triangulo equilátero ');
 }
 
-else if (ladoA===ladoB && ladoB!= ladoC || ladoA!= ladoB && ladoB === ladoC) {
+else if (ladoA===ladoB && ladoB!= ladoC && ladoA!= ladoB && ladoB === ladoC) {
 
     console.log( ' Felicidades has encontrado un triangulo isósceles');
 
 } else {
 console.log (' imgino que lo debes tener es un triangulo escaleno, con sus tres lados diferentes ');
 }
+
+// tiene error esto, todavia no esta concluido
