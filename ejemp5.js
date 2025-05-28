@@ -7,13 +7,29 @@ determine cuál es el mayor de los tres.
 const prompt = require('prompt-sync')();
 
 console.log(' vamor a comparar tres numeros, y determinaremos cual es mayor. ')
-let numeroUno= parseFloat(prompt(' escribe el primer numero: ')); 
+let numeroUno=parseFloat(prompt(' Escribe el primer numero: ')); 
 let numeroDos=parseFloat(prompt(' Escribe el segundo numero: '));
 let numeroTres=parseFloat(prompt(' Escribe el tercer y ultimo numero: '));
 
-let elMayor= (numeroUno || numeroDos||numeroTres );
 
+if (numeroUno > numeroDos && numeroUno>numeroTres ){
+    
+    console.log(' El numero mayor es:   '+ numeroUno)
+}
 
-    console.log (' el numero mayor es: '+ elMayor)
+else if(numeroDos>numeroUno && numeroDos>numeroTres) {
+    
+    console.log('El numero mayor es:  '+numeroDos)
+
+}
+
+else if (numeroTres >numeroUno && numeroTres>numeroDos) {
+
+    console.log('El numero mayor es:  '+numeroTres)
+}
+else {
+    console.log(' no hay opcion')
+}
 
     
+// concluido
