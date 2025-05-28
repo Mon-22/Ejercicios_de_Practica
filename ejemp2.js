@@ -18,3 +18,5 @@ if ( RANGO_MINIMO<=numero && RANGO_MAXIMO>=numero){
 } else {
     console.log("El numero no esta dentro de rango");
 }
+
+// concluido
