@@ -23,3 +23,5 @@ if  (numero1 > numero2 ) {
 
     console.log ( numero2 + ' es mayor que: ' + numero1)
 }
+
+// concluido
